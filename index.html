@@ -80,7 +80,7 @@ var upTitle = function(index) {
     selectTitles.splice(index-1,2,selectTitles[index],selectTitles[index-1]);
     loadSelection();
 }
-$.get("https://docs.google.com/spreadsheets/d/13Ss_ox1Z7h0OUL_dBcmk0Z5yhrC52LZp4KDlP7JZ1xg/edit?usp=sharing",
+$.get("https://docs.google.com/spreadsheets/d/13Ss_ox1Z7h0OUL_dBcmk0Z5yhrC52LZp4KDlP7JZ1xg/edit#gid=1221400761",
  function(json) { 
     var entrys = json.feed.entry;
     var len = entrys.length;
