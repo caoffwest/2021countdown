@@ -81,7 +81,7 @@ var upTitle = function(index) {
     selectTitles.splice(index-1,2,selectTitles[index],selectTitles[index-1]);
     loadSelection();
 }
-$.get("https://raw.githubusercontent.com/caoffwest/2021countdown/main/data.json",
+$.get("https://github.com/caoffwest/2021countdown/blob/main/data.json",
  function(json) { 
     var entrys = json.feed.entry;
     var len = entrys.length;
