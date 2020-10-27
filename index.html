@@ -34,7 +34,7 @@
 
 <nav class="navbar navber-light bg-light fixed-bottom" role="navigation">
 <div class="container">
-<a href="https://twitter.com/intent/tweet?button_hashtags=caoff2020&text=" class="twitter-hashtag-button btn btn-primary btn-lg btn-block" role="button" data-lang="ja" data-role="button">Tweet #caoff2021</a><br/>
+<a href="https://twitter.com/intent/tweet?hashtags=caoff2020&text=" class="twitter-hashtag-button btn btn-primary btn-lg btn-block" role="button" data-lang="ja" data-role="button">Tweet #caoff2021</a><br/>
 </div>
 </nav>
 <script type="text/javascript"
@@ -64,7 +64,7 @@ var loadSelection = function() {
         text += i+"位:"+selectTitles[i-1]+"\n";
     }
     text += "https://caoffwest.github.io/2020countdown/";
-    var url = "https://twitter.com/intent/tweet?button_hashtags=caoff2021&text=";
+    var url = "https://twitter.com/intent/tweet?hashtags=caoff2021&text=";
     $('.twitter-hashtag-button').attr("href", url+encodeURIComponent(text));
 }
 var deleteTitle = function(title) {
